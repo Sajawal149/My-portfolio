@@ -105,16 +105,16 @@ section {
 
 .project-card {
 
-  background: linear-gradient(135deg, #007bff, #0056b3);
-  color: #fff;
-  padding: 2rem;
-  border-radius: 20px;
-  box-shadow: 0 15px 30px rgba(0, 123, 255, 0.3);
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  animation: slideIn 1.2s ease;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 123, 255, 0.3);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    animation: slideIn 1.2s ease;
  
 
 /*  
@@ -127,18 +127,18 @@ section {
 .project-card:hover {
 
     transform: translateY(-10px) scale(1.02);
-  box-shadow: 0 20px 40px rgba(0, 123, 255, 0.5);
+    box-shadow: 0 20px 40px rgba(0, 123, 255, 0.5);
  
-    transform: translateY(-10px);
+/*     transform: translateY(-10px); */
 }
 .project-card h3 {
-  font-size: 1.6rem;
-  margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
 }
 
 .project-card p {
-  font-size: 1rem;
-  line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 @keyframes slideIn {
@@ -146,7 +146,8 @@ section {
     opacity: 0;
     transform: translateY(30px);
   }
-  100% {
+ 
+ 100% {
     opacity: 1;
     transform: translateY(0);
   }
